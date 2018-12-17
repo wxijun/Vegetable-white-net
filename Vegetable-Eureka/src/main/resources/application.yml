@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: eureka  # eureka实例的主机名
+  client:
+    register-with-eureka: false  #不把自己注册到eureka上
+    fetch-registry: false   #不从eureka上来获取服务的注册信息--不检索服务
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+  #是否开启安全保护，默认是开启的，如果默认开启，注册中心的服务列表就算有些服务断开了，也会继续保存
+    enable-self-preservation: false
+

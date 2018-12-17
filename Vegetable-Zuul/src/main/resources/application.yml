@@ -1,0 +1,16 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: api-geteway
+zuul:
+  routes:
+    Vegetable-User:
+      path: /user/**
+      serviceId: vagetable-user
+  add-host-header: true
+  add-proxy-headers: true
+eureka:
+  client:
+    serviceUrl:
+      defaulyZone: http://localhost:8761/eureka/
