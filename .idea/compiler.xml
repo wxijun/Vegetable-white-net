@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Vegetable-Config-Client" />
+        <module name="Vegetable-Config-Server" />
         <module name="Vegetable-Eureka" />
         <module name="Vegetable-User" />
         <module name="Vegetable-Zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Vegetable-Config-Client" target="1.8" />
+      <module name="Vegetable-Config-Server" target="1.8" />
       <module name="Vegetable-Eureka" target="1.8" />
       <module name="Vegetable-User" target="1.8" />
       <module name="Vegetable-Zuul" target="1.8" />

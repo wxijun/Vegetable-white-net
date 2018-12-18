@@ -1,0 +1,17 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wxijun/springcloud-config
+          username: wxijun
+          password: wxjun027
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

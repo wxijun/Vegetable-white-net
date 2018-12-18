@@ -11,9 +11,27 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://120.79.221.197:3306/user?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true
+    url: jdbc:mysql://120.79.221.197:3306/user?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&autoReconnect=true
     username: root
     password: yourpassword
+#    password: OltqOmPobZD/R2BXSlc0I6K5b6EIR6N78hLi+wXAYvoS7Ks1LXdN+SOjCMI0lbyS7fjrn7AsKCU7UkGaGsM//g==
+#    publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJ+LDwZC6USKLxW9G/kPvdhKb9IsolGjH1pp7jicrDvleAtpny77DyYgtynQSDbyDJ5D0kZGvTZS2bshu36fXlECAwEAAQ==
+#    druid:
+#    initial-size: 5
+#    max-active: 20
+#    min-idle: 5
+#    max-wait: 60000
+#    pool-prepared-statements: true
+#    max-pool-prepared-statement-per-connection-size: 20
+#    validation-query: SELECT 'x'
+#    test-on-borrow: false
+#    test-while-idle: true
+#    time-between-eviction-runs-millis: 60000
+#    min-evictable-idle-time-millis: 300000
+#    exception-sorter: true
+#    test-on-return: false
+#    filters: stat,wall,log4j
+#    connection-properties: config.decrypt=true;publickey=${spring.datasource.publicKey};password=${spring.datasource.password}
 
   jpa:
     database: mysql

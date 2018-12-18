@@ -6,7 +6,7 @@ spring:
 zuul:
   routes:
     Vegetable-User:
-      path: /user/**
+      path: /v1.0/**
       serviceId: vagetable-user
   add-host-header: true
   add-proxy-headers: true

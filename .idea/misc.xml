@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/Vegetable-Eureka/pom.xml" />
         <option value="$PROJECT_DIR$/Vegetable-User/pom.xml" />
         <option value="$PROJECT_DIR$/Vegetable-Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/Vegetable-Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Vegetable-Config-Client/pom.xml" />
       </list>
     </option>
   </component>
