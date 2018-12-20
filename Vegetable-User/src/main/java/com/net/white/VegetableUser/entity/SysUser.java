@@ -3,7 +3,7 @@ package com.net.white.VegetableUser.entity;
 import javax.persistence.*;
 
 /**
- * @ClassName User
+ * @ClassName SysUser
  * @Description TODO
  * @Author wangxijun
  * @Date 2018/12/17 13:49
@@ -11,7 +11,7 @@ import javax.persistence.*;
  **/
 @Entity
 @Table(name = "user")
-public class User {
+public class SysUser {
     @Id
     private String id;
 
@@ -55,7 +55,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "SysUser{" +
                 "id='" + id + '\'' +
                 ", user_name='" + user_name + '\'' +
                 ", user_pass='" + user_pass + '\'' +

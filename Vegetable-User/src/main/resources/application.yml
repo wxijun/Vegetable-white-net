@@ -7,7 +7,6 @@ server:
 spring:
   application:
     name: vagetable-user
-    #连接数据库
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,10 +35,10 @@ spring:
   jpa:
     database: mysql
     hibernate:
-      ddl-auto: update #自动检查实体和数据库表是否一致，如果不一致则会进行更新数据库表
+      ddl-auto: update
     show-sql: true
 
   devtools:
     restart:
       enabled: true
-      additional-paths: src/main/java #设置重启目录
+      additional-paths: src/main/java

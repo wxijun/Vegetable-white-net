@@ -1,11 +1,10 @@
 package com.net.white.VegetableUser.controller;
 
-import com.net.white.VegetableUser.entity.User;
-import com.net.white.VegetableUser.repository.UserRepository;
+import com.net.white.VegetableUser.annotation.MyLog;
+import com.net.white.VegetableUser.entity.SysUser;
+import com.net.white.VegetableUser.repository.SysUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 /**
  * @ClassName UserController
@@ -18,8 +17,9 @@ import java.util.List;
 @RequestMapping(value = "/user")
 public class UserController {
     @Autowired
-    private UserRepository userRepository;
+    private SysUserRepository userRepository;
 
+    @MyLog
     @RequestMapping(value = "/list",method = RequestMethod.POST)
     @ResponseBody
     public String test(
@@ -27,7 +27,7 @@ public class UserController {
             @RequestParam ("userPass") String userPass
             ,@RequestParam (value = "token", required = false, defaultValue = "") String token
     )throws Exception{
-        User user = userRepository.Login(userName,userPass,token);
+        SysUser user = userRepository.Login(userName,userPass,token);
         if(!user.equals("")){
             return user.toString();
         }else{
