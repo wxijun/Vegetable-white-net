@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2de2255f-b8db-4918-8b01-a894c741c214" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vegetable-User/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vegetable-Zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-Zuul/target/classes/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="2de2255f-b8db-4918-8b01-a894c741c214" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/Vegetable-Eureka/target/" />
     <ignored path="$PROJECT_DIR$/Vegetable-User/target/" />
     <ignored path="$PROJECT_DIR$/Vegetable-Zuul/target/" />
@@ -553,15 +544,15 @@
       <option name="presentableId" value="Default" />
       <updated>1545015750049</updated>
       <workItem from="1545015751857" duration="40514000" />
-      <workItem from="1545274547898" duration="12097000" />
+      <workItem from="1545274547898" duration="12338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52611000" />
+    <option name="totallyTimeSpent" value="52852000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
