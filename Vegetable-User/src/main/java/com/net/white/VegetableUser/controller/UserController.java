@@ -19,7 +19,7 @@ public class UserController {
     @Autowired
     private SysUserRepository userRepository;
 
-    @MyLog
+    @MyLog(value = "查询用户表记录")//这里添加了AOP的自定义注解
     @RequestMapping(value = "/list",method = RequestMethod.POST)
     @ResponseBody
     public String test(

@@ -34,7 +34,6 @@ public class SysLogAspect {
     //切面 配置通知
     @AfterReturning("logPoinCut()")
     public void saveSysLog(JoinPoint joinPoint) {
-        System.out.println("切面。。。。。");
         //保存日志
         SysLog sysLog = new SysLog();
 
@@ -65,13 +64,15 @@ public class SysLogAspect {
         sysLog.setCreate_date(new Date());
         //获取用户名
         sysLog.setUser_name("admin");
+        //获取用户ID
+        sysLog.setUser_id("1");
 //        sysLog.setUsername(ShiroUtils.getUserEntity().getUsername());
         //获取用户ip地址
-//        HttpServletRequest request = HttpContextUtils.getHttpServletRequest();
-//        sysLog.setIp(IPUtils.getIpAddr(request));
-        sysLog.setIp("127.0.0.1");
+        HttpServletRequest request = HttpContextUtils.getHttpServletRequest();
+        sysLog.setIp(IPUtils.getIpAddr(request));
+//        sysLog.setIp("127.0.0.1");
 
-        //调用service保存SysLog实体类到数据库
+        //调用sysLogRepository保存SysLog实体类到数据库
         sysLogRepository.save(sysLog);
     }
 

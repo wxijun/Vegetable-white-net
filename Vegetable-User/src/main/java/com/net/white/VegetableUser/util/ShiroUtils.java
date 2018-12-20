@@ -1,8 +1,6 @@
 package com.net.white.VegetableUser.util;
 
-import com.net.white.VegetableUser.entity.SysUser;
 import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.SimpleAuthenticationInfo;
 
 /**
  * @ClassName ShiroUtils

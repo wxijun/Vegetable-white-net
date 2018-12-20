@@ -10,6 +10,19 @@ zuul:
       serviceId: vagetable-user
   add-host-header: true
   add-proxy-headers: true
+  host:
+    socket-timeout-millis: 60000  #socket超时
+    connect-timeout-millis: 15000 #HTTP链接超时要比Hystrix的大
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutlnMilliseconds: 10000  #设置超时时间 10秒
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
 eureka:
   client:
     serviceUrl:

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2de2255f-b8db-4918-8b01-a894c741c214" name="Default" comment="" />
+    <list default="true" id="2de2255f-b8db-4918-8b01-a894c741c214" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/service/Impl/SysLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/service/SysLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-Zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-Zuul/target/classes/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/Vegetable-Eureka/target/" />
     <ignored path="$PROJECT_DIR$/Vegetable-User/target/" />
     <ignored path="$PROJECT_DIR$/Vegetable-Zuul/target/" />
@@ -19,66 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysLog.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
-                <element signature="e#1365#1366#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1641#1642#0" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ShiroUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-294">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -86,8 +42,8 @@
       <file leaf-file-name="SysLogAspect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1154">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="86">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,62 +51,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="23">
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpContextUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/IPUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysLogRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysLogRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vegetable-User/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -195,23 +103,30 @@
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/MyLog.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/MyLog.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/pom.xml" />
-        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/IPUtils.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/service/SysLogService.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/service/Impl/SysLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java" />
-        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java" />
-        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysLogRepository.java" />
-        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysLog.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java" />
+        <option value="$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -222,9 +137,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="98" />
-    <option name="y" value="62" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="578" />
+    <option name="y" value="3" />
     <option name="width" value="1170" />
     <option name="height" value="610" />
   </component>
@@ -249,131 +164,6 @@
             <path>
               <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
-              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
               <item name="Vegetable-Zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,6 +178,33 @@
               <item name="Vegetable-Zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulcenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
@@ -414,10 +231,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Vegetable-Config-Client/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -544,15 +361,15 @@
       <option name="presentableId" value="Default" />
       <updated>1545015750049</updated>
       <workItem from="1545015751857" duration="40514000" />
-      <workItem from="1545274547898" duration="12338000" />
+      <workItem from="1545274547898" duration="17525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52852000" />
+    <option name="totallyTimeSpent" value="58039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -565,7 +382,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3983471" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4909091" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -576,7 +393,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.43140495" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2065053" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2801802" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -598,7 +415,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -733,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/java/com/example/trample/zuulcenter/VegetableZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -758,13 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-46">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/java/com/example/trample/zuulcenter/zuul/TokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -813,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/IPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/service/SysLogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -834,30 +630,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -899,13 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="429" selection-start-line="429" selection-end-line="429" />
         </state>
       </provider>
     </entry>
@@ -919,27 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="429" selection-start-line="429" selection-end-line="429" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1154">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,6 +732,86 @@
             <element signature="e#1589#1590#0" expanded="true" />
             <element signature="e#1641#1642#0" expanded="true" />
             <element signature="e#1687#1688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/java/com/example/trample/zuulcenter/zuul/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="309">
+            <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/IPUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/java/com/example/trample/zuulcenter/VegetableZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
