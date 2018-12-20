@@ -1,13 +1,10 @@
 package com.net.white.VegetableUser.util;
 
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
-
-import javax.servlet.http.HttpServlet;
+import org.springframework.web.context.request.*;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @ClassName HttpContextUtils
+ * @ClassName HttpContextUtils spring获取request
  * @Description TODO
  * @Author wangxijun
  * @Date 2018/12/20 11:29

@@ -61,12 +61,13 @@ public class SysLogAspect {
         String params = JSON.toJSONString(args);
         sysLog.setParams(params);
 
-        sysLog.setCreate_date(new Date());
+        sysLog.setCreateDate(new Date());
         //获取用户名
-        sysLog.setUser_name("admin");
+//        sysLog.setUser_name(ShiroUtils.getUserEntity().getUser_name());
+        sysLog.setUserName("admin");
         //获取用户ID
-        sysLog.setUser_id("1");
-//        sysLog.setUsername(ShiroUtils.getUserEntity().getUsername());
+        sysLog.setUserId("1");
+
         //获取用户ip地址
         HttpServletRequest request = HttpContextUtils.getHttpServletRequest();
         sysLog.setIp(IPUtils.getIpAddr(request));

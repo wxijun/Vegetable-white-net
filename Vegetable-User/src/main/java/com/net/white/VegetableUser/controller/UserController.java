@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(value = "/user")
 public class UserController {
+
     @Autowired
     private SysUserRepository userRepository;
 
@@ -23,8 +24,8 @@ public class UserController {
     @RequestMapping(value = "/list",method = RequestMethod.POST)
     @ResponseBody
     public String test(
-            @RequestParam ("userName") String userName,
-            @RequestParam ("userPass") String userPass
+            @RequestParam (value = "userName", required = false, defaultValue = "") String userName,
+            @RequestParam (value = "userPass", required = false, defaultValue = "") String userPass
             ,@RequestParam (value = "token", required = false, defaultValue = "") String token
     )throws Exception{
         SysUser user = userRepository.Login(userName,userPass,token);

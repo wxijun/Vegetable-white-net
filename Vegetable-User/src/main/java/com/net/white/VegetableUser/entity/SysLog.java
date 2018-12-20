@@ -1,9 +1,8 @@
 package com.net.white.VegetableUser.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -19,45 +18,74 @@ import java.util.Date;
 public class SysLog implements Serializable {
 
     @Id
-    @GeneratedValue
-    private Long id;
+    @GenericGenerator(name = "idGenerator",strategy = "uuid")//这个是hibernate注解、生成32位UUID
+    @GeneratedValue(generator = "idGenerator")
+    private String id;
 
-    private String user_id; //用户ID
+//    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name="create_date")
+    private Date createDate;
 
-    private String user_name; //用户名
+//    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name="update_date")
+    private Date updateDate;
 
+    @Column(name="user_id")
+    private String userId; //用户ID
+
+    @Column(name="user_name")
+    private String userName; //用户名
+
+    @Column(name="operation")
     private String operation; //操作
 
+    @Column(name="method")
     private String method; //方法名
 
+    @Column(name="params")
     private String params; //参数
 
-    private String ip; //ip地址
+    @Column(name="ip")
+    private String Ip; //ip地址
 
-    private Date create_date; //操作时间
-
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public String getUser_id() {
-        return user_id;
+    public Date getCreateDate() {
+        return createDate;
     }
 
-    public void setUser_id(String user_id) {
-        this.user_id = user_id;
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public Date getUpdateDate() {
+        return updateDate;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setUpdateDate(Date updateDate) {
+        this.updateDate = updateDate;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getOperation() {
@@ -85,18 +113,10 @@ public class SysLog implements Serializable {
     }
 
     public String getIp() {
-        return ip;
+        return Ip;
     }
 
     public void setIp(String ip) {
-        this.ip = ip;
-    }
-
-    public Date getCreate_date() {
-        return create_date;
-    }
-
-    public void setCreate_date(Date create_date) {
-        this.create_date = create_date;
+        Ip = ip;
     }
 }

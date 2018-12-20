@@ -8,6 +8,6 @@ import org.springframework.data.repository.query.Param;
 
 public interface SysUserRepository extends CrudRepository<SysUser,Integer> {
 
-    @Query("SELECT u FROM SysUser u WHERE u.user_name = :userName AND u.user_pass = :userPass AND u.token = :token")
+    @Query("SELECT u FROM SysUser u WHERE u.userName = :userName AND u.userPass = :userPass AND u.token = :token")
     SysUser Login(@Param("userName")String userName, @Param("userPass")String userPass, @Param("token")String token);
 }

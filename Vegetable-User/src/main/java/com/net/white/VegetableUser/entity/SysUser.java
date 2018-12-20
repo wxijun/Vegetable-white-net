@@ -1,6 +1,10 @@
 package com.net.white.VegetableUser.entity;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @ClassName SysUser
@@ -11,14 +15,28 @@ import javax.persistence.*;
  **/
 @Entity
 @Table(name = "user")
-public class SysUser {
+public class SysUser implements Serializable {
+
     @Id
+    @GenericGenerator(name = "idGenerator",strategy = "uuid")//这个是hibernate注解、生成32位UUID
+    @GeneratedValue(generator = "idGenerator")
     private String id;
 
-    private String user_name;
+//    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name="create_date")
+    private Date createDate;
 
-    private String user_pass;
+//    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name="update_date")
+    private Date updateDate;
 
+    @Column(name="user_name")
+    private String userName;
+
+    @Column(name="user_pass")
+    private String userPass;
+
+    @Column(name="token")
     private String token;
 
     public String getId() {
@@ -29,20 +47,36 @@ public class SysUser {
         this.id = id;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public Date getCreateDate() {
+        return createDate;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
     }
 
-    public String getUser_pass() {
-        return user_pass;
+    public Date getUpdateDate() {
+        return updateDate;
     }
 
-    public void setUser_pass(String user_pass) {
-        this.user_pass = user_pass;
+    public void setUpdateDate(Date updateDate) {
+        this.updateDate = updateDate;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserPass() {
+        return userPass;
+    }
+
+    public void setUserPass(String userPass) {
+        this.userPass = userPass;
     }
 
     public String getToken() {
@@ -57,8 +91,10 @@ public class SysUser {
     public String toString() {
         return "SysUser{" +
                 "id='" + id + '\'' +
-                ", user_name='" + user_name + '\'' +
-                ", user_pass='" + user_pass + '\'' +
+                ", createDate=" + createDate +
+                ", updateDate=" + updateDate +
+                ", userName='" + userName + '\'' +
+                ", userPass='" + userPass + '\'' +
                 ", token='" + token + '\'' +
                 '}';
     }
