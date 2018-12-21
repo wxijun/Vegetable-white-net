@@ -19,7 +19,7 @@ public class Token implements Serializable {
     private String userId;
 
     @Column(name="create_date")
-    private Date createDate;
+    private Integer createDate;
 
     @Column(name="token")
     private String token;
@@ -40,11 +40,11 @@ public class Token implements Serializable {
         this.userId = userId;
     }
 
-    public Date getCreateDate() {
+    public Integer getCreateDate() {
         return createDate;
     }
 
-    public void setCreateDate(Date createDate) {
+    public void setCreateDate(Integer createDate) {
         this.createDate = createDate;
     }
 

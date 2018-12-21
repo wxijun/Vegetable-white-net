@@ -34,6 +34,18 @@ public class TokenFilter extends ZuulFilter {
     //控制过滤器生效不生效，可以在里面写一串逻辑来控制
     @Override
     public boolean shouldFilter() {
+        RequestContext requestContext = RequestContext.getCurrentContext();
+        HttpServletRequest  request = requestContext.getRequest();
+        //忽略大小写，返回true则拦截，进入run方法
+        if("/v1.0/user/yanzheng".equals(request.getRequestURI())){
+            return false;
+        }
+        if("/v1.0/user/index".equals(request.getRequestURI())){
+            return false;
+        }
+        if("/v1.0/user/login".equals(request.getRequestURI())){
+            return false;
+        }
         return true;
     }
 

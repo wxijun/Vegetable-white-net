@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 /**
- * @ClassName UserController
+ * @ClassName UserController 用户控制层
  * @Description TODO
  * @Author wangxijun
  * @Date 2018/12/17 13:57
@@ -74,30 +74,35 @@ public class UserController {
     public String showindex() {
         return "index";
     }
+
     @RequestMapping("/login")
     public String showlogin() {
         return "login";
     }
+
     @ResponseBody
-    @RequestMapping("/yanzheng")
-    public Result yanzheng(SysUser resqUser, HttpServletRequest request) {
+    @RequestMapping(value = "/yanzheng",method = RequestMethod.POST)
+    public Result yanzheng(
+            @RequestParam (value = "userName", required = false, defaultValue = "") String userName,
+            @RequestParam (value = "userPass", required = false, defaultValue = "") String userPass,
+            HttpServletRequest request)throws Exception {
         //创建返回信息对象
         Result result = new Result();
         //判断用户信息为空
-        if ("".equals(resqUser.getUserName()) || "".equals(resqUser.getUserPass())) {
+        if ("".equals(userName) || "".equals(userPass)) {
             result.setMsg("传入的用户名/密码为空！");
             return result;
         }
 
         //根据客户用户名查找数据库的usre对象
-        SysUser myUser = userRepository.findByUserName(resqUser.getUserName());
+        SysUser myUser = userRepository.findByUserName(userName);
         //判断用户不存在
         if (null == myUser) {
             result.setMsg("用户不存在");
             return result;
         }
         //判断用户不存在
-        if (!resqUser.getUserPass().equals(myUser.getUserPass())) {
+        if (!userPass.equals(myUser.getUserPass())) {
             result.setMsg("密码不正确");
             return result;
         }
@@ -116,13 +121,13 @@ public class UserController {
             token.setToken(TokenStr);
             token.setCreateDate(nowtime);
             token.setUserId(myUser.getId());
-            tokenRepository.addToken(token);
+            tokenRepository.save(token);
         }else{
             //登陆就更新Token信息
             TokenStr = creatToken(myUser, date);
             token.setToken(TokenStr);
             token.setCreateDate(nowtime);
-            tokenRepository.updataToken(token);
+            tokenRepository.save(token);
         }
         //返回Token信息给客户端
         result.setFlag(true);
@@ -131,14 +136,14 @@ public class UserController {
         return result;
     }
     //生成Token信息方法（根据有效的用户信息）
-    private String creatToken(SysUser user, Date date) {
+    private String creatToken(SysUser user, Date date) throws Exception{
         SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS256;
         JwtBuilder builder = Jwts.builder().setHeaderParam("typ", "JWT") // 设置header
                 .setHeaderParam("alg", "HS256").setIssuedAt(date) // 设置签发时间
                 .setExpiration(new Date(date.getTime() + 1000 * 60 * 60 * 24 * 3))
                 .claim("userid",String.valueOf(user.getId()) ) // 设置内容
-                .setIssuer("lws")// 设置签发人
-                .signWith(signatureAlgorithm, "dahao"); // 签名，需要算法和key
+                .setIssuer("wxj")// 设置签发人
+                .signWith(signatureAlgorithm, "junjun"); // 签名，需要算法和key
         String jwt = builder.compact();
         return jwt;
     }

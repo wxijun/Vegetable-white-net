@@ -3,12 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Vegetable-Config-Client/Vegetable-Config-Client.iml" filepath="$PROJECT_DIR$/Vegetable-Config-Client/Vegetable-Config-Client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Vegetable-Config-Client/Vegetable-Config-Client.iml" filepath="$PROJECT_DIR$/Vegetable-Config-Client/Vegetable-Config-Client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Vegetable-Config-Server/Vegetable-Config-Server.iml" filepath="$PROJECT_DIR$/Vegetable-Config-Server/Vegetable-Config-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vegetable-Config-Server/Vegetable-Config-Server.iml" filepath="$PROJECT_DIR$/Vegetable-Config-Server/Vegetable-Config-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vegetable-Eureka/Vegetable-Eureka.iml" filepath="$PROJECT_DIR$/Vegetable-Eureka/Vegetable-Eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Vegetable-Eureka/Vegetable-Eureka.iml" filepath="$PROJECT_DIR$/Vegetable-Eureka/Vegetable-Eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Vegetable-User/Vegetable-User.iml" filepath="$PROJECT_DIR$/Vegetable-User/Vegetable-User.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vegetable-User/Vegetable-User.iml" filepath="$PROJECT_DIR$/Vegetable-User/Vegetable-User.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vegetable-Zuul/Vegetable-Zuul.iml" filepath="$PROJECT_DIR$/Vegetable-Zuul/Vegetable-Zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Vegetable-white-net.iml" filepath="$PROJECT_DIR$/.idea/Vegetable-white-net.iml" />

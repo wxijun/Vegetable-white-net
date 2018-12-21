@@ -38,11 +38,10 @@ public class TokenInterceptor implements HandlerInterceptor {
         }
         //解析Token信息
         try {
-            Claims claims = Jwts.parser().setSigningKey("dahao").parseClaimsJws(headerToken).getBody();
+            Claims claims = Jwts.parser().setSigningKey("junjun").parseClaimsJws(headerToken).getBody();
             String tokenUserId=(String)claims.get("userid");
-            int itokenUserId=Integer.parseInt(tokenUserId);
             //根据客户Token查找数据库Token
-            Token myToken=tokenRepository.findByUserId(itokenUserId);
+            Token myToken=tokenRepository.findByUserId(tokenUserId);
 
             //数据库没有Token记录
             if(null==myToken) {
