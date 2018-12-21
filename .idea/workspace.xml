@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de2255f-b8db-4918-8b01-a894c741c214" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-Zuul/target/classes/com/example/trample/zuulcenter/VegetableZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-Zuul/target/classes/com/example/trample/zuulcenter/zuul/TokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vegetable-Zuul/target/test-classes/com/example/trample/zuulcenter/ZuulCenterApplicationTests.class" beforeDir="false" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
     </list>
     <ignored path="$PROJECT_DIR$/Vegetable-Eureka/target/" />
     <ignored path="$PROJECT_DIR$/Vegetable-User/target/" />
@@ -21,32 +32,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysLogAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/sql/Date.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SysUserRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+<<<<<<< HEAD
+            <state relative-caret-position="1150">
+              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+=======
+            <state relative-caret-position="299">
+              <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +49,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="1081">
+              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+=======
+            <state relative-caret-position="414">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+              </folding>
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="115">
+              <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+=======
+            <state relative-caret-position="851">
+              <caret line="138" column="59" selection-start-line="138" selection-start-column="59" selection-end-line="138" selection-end-column="59" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2318#2319#0" expanded="true" />
+                <element signature="e#2348#2349#0" expanded="true" />
+                <element signature="e#2410#2411#0" expanded="true" />
+                <element signature="e#2440#2441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/TokenRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="598">
               <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+=======
+            <state relative-caret-position="207">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,20 +143,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml">
+      <file leaf-file-name="TokenInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/Interceptor/TokenInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="483">
               <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+=======
+            <state relative-caret-position="322">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SysLog.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysLog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="24" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="39" />
+=======
+      <file leaf-file-name="TokenConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/Config/TokenConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="18" column="80" lean-forward="true" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +180,37 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SysUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
               <caret line="28" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="39" />
+=======
+      <file leaf-file-name="ShiroUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/java/com/example/trample/zuulcenter/zuul/TokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysLogRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysLogRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,13 +266,18 @@
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/HttpContextUtils.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java" />
         <option value="$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysLog.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysUser.java" />
         <option value="$PROJECT_DIR$/Vegetable-User/pom.xml" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/Token.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/Result.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/TokenRepository.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/Config/TokenConfiguration.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/Interceptor/TokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java" />
+        <option value="$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -199,6 +323,92 @@
               <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
+              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="VegetableUser" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vegetable-white-net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vegetable-white-net" type="462c0819:PsiDirectoryNode" />
+              <item name="Vegetable-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
           </expand>
           <select />
         </subPane>
@@ -346,20 +556,33 @@
       <option name="presentableId" value="Default" />
       <updated>1545015750049</updated>
       <workItem from="1545015751857" duration="40514000" />
+<<<<<<< HEAD
       <workItem from="1545274547898" duration="22608000" />
       <workItem from="1545353728547" duration="334000" />
+=======
+      <workItem from="1545274547898" duration="22337000" />
+      <workItem from="1545312094169" duration="7090000" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="63456000" />
+=======
+    <option name="totallyTimeSpent" value="69941000" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.22541603" />
+=======
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.27987897" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -377,6 +600,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.43140495" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+<<<<<<< HEAD
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
@@ -404,6 +631,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Vegetable-Config-Client/src/main/java/com/example/VegetableConfigClient/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -433,14 +661,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/service/UserService.java" />
+=======
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
     <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/service/Impl/UserServiceImpl.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/Table.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/Table.class" />
     <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/VegetableUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -448,63 +672,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/LoadBalancerContext.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/LoadBalancerContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="373" selection-start-line="373" selection-end-line="373" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-jpa/2.1.3.RELEASE/spring-data-jpa-2.1.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.3.RELEASE/spring-data-jpa-2.1.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/FilterProcessor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/FilterProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/http/ZuulServlet.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/http/ZuulServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulRunner.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
@@ -590,38 +796,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/Repository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/Repository.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="429" selection-start-line="429" selection-end-line="429" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/java/com/example/trample/zuulcenter/zuul/TokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -646,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -663,30 +842,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/TemporalType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysLogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/TemporalType.class" />
     <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -698,26 +854,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="28" column="28" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/sql/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/sql/Date.java" />
     <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/annotation/Impl/SysLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -728,16 +871,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysUser.java">
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="28" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="274">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="598">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+=======
+        <state relative-caret-position="256">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/entity/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="25" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="483">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+=======
+        <state relative-caret-position="175">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysLogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="128">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="28" selection-end-column="28" />
+=======
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/TokenRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="115">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+=======
+        <state relative-caret-position="207">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/util/ShiroUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1081">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+=======
+        <state relative-caret-position="115">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-Zuul/src/main/java/com/example/trample/zuulcenter/zuul/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1150">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+=======
+        <state relative-caret-position="464">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/Config/TokenConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="18" column="80" lean-forward="true" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/Interceptor/TokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="552">
+          <caret line="28" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="39" />
+=======
+        <state relative-caret-position="322">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="44" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Vegetable-User/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -749,12 +1058,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="24" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/repository/SysUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Vegetable-User/src/main/java/com/net/white/VegetableUser/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="138" column="59" selection-start-line="138" selection-start-column="59" selection-end-line="138" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2318#2319#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 78b4d7ab1a486b7beb9d4791c19f96aff3cc08f9
   </component>
   <component name="masterDetails">
     <states>
